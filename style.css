@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    text-decoration: none;
 }
 
 .body {
@@ -97,6 +98,7 @@ hr {
 .footer-container
 h3 {
     font-weight: 400;
+    color: black;
 }
 
 .footer-container
