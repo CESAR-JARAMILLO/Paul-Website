@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -9,7 +9,8 @@
 
 .body {
     background-color: #ddf1f4;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 2.5px;
 }
 
 
@@ -17,9 +18,10 @@
 .header {
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url(./images/paul.png);
     background-size: cover;
-    color: #fff;
+    color: #ddf1f4;
     min-height: 400px;
     margin-top: 30px;
+    font-weight: bold;
 }
 
 .header-container {
@@ -27,6 +29,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header-container
+.logo {
+    font-weight: 300;
+    font-size: 40px;
 }
 
 .main {
@@ -45,14 +53,18 @@
     align-items: center;
 }
 
+.main-container
+h2 {
+    font-weight: 400;
+}
+
 .main-button {
     border-radius: 5px;
     width: 120px;
     height: 40px;
     background: #1DAFD6;
-    color: #fff;
+    color: #ddf1f4;
     border: none;
-    letter-spacing: 2.5px;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -68,6 +80,11 @@
 }
 
 .footer-container
+hr {
+    border: 2px solid;
+}
+
+.footer-container
 .top-line{
     width: 140px;
 }
@@ -78,14 +95,20 @@
 }
 
 .footer-container
+h3 {
+    font-weight: 400;
+}
+
+.footer-container
 .icons {
-    width: 100px;
+    width: 140px;
     display: flex;
     justify-content: space-between;
 }
 
 .footer-container
 .icons
-.i {
-    height: 36px;
+a {
+    color: #1DAFD6;
 }
+
