@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.body {
+    background-color: #ddf1f4;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.header {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url(./images/paul.png);
+    background-size: cover;
+    color: #fff;
+    min-height: 400px;
+    margin-top: 30px;
+}
+
+.header-container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.main-container {
+    height: 500px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-button {
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    background: #1DAFD6;
+    color: #fff;
+    border: none;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-container
+.top-line{
+    width: 140px;
+}
+
+.footer-container
+.bottom-line{
+    width: 300px;
+}
+
+.footer-container
+.icons {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container
+.icons
+.i {
+    height: 36px;
+}
